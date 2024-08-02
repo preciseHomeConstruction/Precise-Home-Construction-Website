@@ -1,7 +1,7 @@
 
 body{
   margin: 0px;
-  background-color: skyblue;
+  background-color: white;
 }
 main{
   margin-left: 20px;
@@ -87,7 +87,7 @@ ul{
   /* move to the center; */
   display: flex;
   height: auto;
-  width: 100%;
+  width: 40%;
   align-content: center;
   justify-content: center;
   align-items: center;
