@@ -1,0 +1,275 @@
+
+body{
+  margin: 0px;
+  background-color: skyblue;
+}
+main{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h1{
+  text-align: center;
+}
+.welcome_text{
+  padding: 30px;
+  text-align: center;
+  color: red;
+  font-size: 550%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.text{
+  text-align: center;
+  color: white;
+  font-size: 300%;
+  padding: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.text_contact{
+  text-align: center;
+  color: white;
+  font-size: 300%;
+  padding: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-bottom:10%;
+}
+.text_email{
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  .text_company{
+    text-align: center;
+    color: white;
+    font-size: 300%;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  .text_asap{
+    text-align: center;
+    color: white;
+    font-size: 300%;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+.text_services {
+  text-align: center;
+  color: white;
+  font-size: 250%;
+  padding: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.text_faq{
+    text-align: center;
+    color: white;
+    font-size: 250%;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+
+
+.list li{
+  list-style: none;
+  text-align: center;
+  padding: 3px;
+  color:white;
+  font-size: 200%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.last_item{
+  padding-bottom: 30px;
+}
+ul{
+  padding-bottom: 10px;
+}
+.logo{
+  /* move to the center; */
+  display: flex;
+  height: auto;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.small_logo{
+  /* move to the center; */
+  display: flex;
+  height: auto;
+  width: 70%;
+  justify-content: center;
+}
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(204,
+    204,
+    204);
+  padding: 10px;
+
+}
+
+.navbar ul{
+  list-style-type: none;
+  background-color: rgb(13, 101, 223);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+.navbar a:hover{
+  background-color: rgb(65, 128, 217);
+}
+.navbar li{
+  float: left;
+}
+.phoneNumberButton{
+  color: white;
+  background-color: green;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: larger;
+}
+.phoneNumberButton:hover {
+  background-color: green;;
+  /* Change to the color you want when hovering */
+    transform: scale(1.2);
+      /* This will make the button 10% larger when hovered */
+  /* Change the text color when hovering, if needed */
+}
+/* faq stuff */
+.faqs-container {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  max-width: 700px;
+  margin: 0 auto;
+  padding-bottom: 10vh;
+}
+.faqs-container .questions-container{
+    box-shadow: 0 4px 8px -3px rgb(65, 128, 217);
+  }
+  .faqs-container h2{
+    padding: 4px 32px;
+    font-size: 28px;
+  }
+  .faqs-container .faq-header {
+    display: flex;
+    background: rgb(65, 128, 217);
+    color:white;
+    align-items:center;
+    position: relative;
+    cursor: pointer;
+  }
+  .faqs-container .faq-header .open,
+  .faqs-container .faq-header .close {
+    position: absolute;
+    right: 0;
+    padding: 0 32px;
+    font-size: 22px;
+    font-weight: bold;
+    transform: translateY(-8px);
+    opacity: 0;
+    transition: all 500ms;
+  }
+  .faqs-container .faq-header .open.active,
+  .faqs-container .faq-header .close.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .faqs-container .faq-header h3{
+    font-size: 20px;
+    padding: 0 32px;
+  }
+.faqs-container .content{
+  padding: 0 32px;
+  background: white;
+  line-height: 2;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 500ms;
+}
+.faqs-container .content.active{
+  max-height: 600px;
+}
+
+
+
+
+
+
+
+
+footer{
+  padding:2%;
+    background-color: rgb(13, 101, 223);
+    color:white;
+    text-align: center;
+    
+}
+@media (max-width: 600px){
+  .text_company{
+    display:none;
+  }
+  .header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .welcome_text{
+    text-align: center;
+    color: red;
+    font-size: 300%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  .text_asap{
+        text-align: center;
+        color: white;
+        font-size: 100%;
+        
+  }
+    .list li {
+      list-style: none;
+      text-align: center;
+      padding: 3px;
+      color: white;
+      font-size: 100%;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+     .text_services {
+       text-align: center;
+       color: white;
+       font-size: 150%;
+       padding: 10px;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+     }
+    .text_faq {
+      text-align: center;
+      color: white;
+      font-size: 150%;
+      padding: 10px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+.phoneNumberButton {
+  color: white;
+  background-color: green;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: large;
+}
+
+.phoneNumberButton:hover {
+  background-color: green;
+  ;
+  /* Change to the color you want when hovering */
+  transform: scale(1.2);
+  /* This will make the button 10% larger when hovered */
+  /* Change the text color when hovering, if needed */
+}
+}
